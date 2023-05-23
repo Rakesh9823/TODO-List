@@ -1,0 +1,81 @@
+.container{
+    margin: 30px 530px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: orange;
+    box-shadow:3px 3px 3px  orangered;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-weight: 100;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px #ffffff;
+    text-decoration: underline;
+}
+
+input{
+    width: 16rem;
+    height: 2rem;
+    margin-top: 10px;
+    border-radius: 10rem;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+.addBtn{
+    width: 4rem ;
+    height: 2.3rem;
+    margin-left: 5px;
+    border-radius: 10rem;
+    border: 1px solid orange;
+    background-color: lightgreen;
+    color: green;
+    font-weight: bolder;
+}
+
+.itemList{
+   display: flex; 
+   margin:10px 25px;
+   padding: 8px 10px;
+   background-color: #ffffff;
+   box-shadow:2px 2px 2px orangered;
+   border-radius: 15px;
+}
+.itemList .itemName{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: seagreen;
+    font-size: 1.2rem;
+}
+
+.itemList .buttons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button{
+    margin-right: 10px;
+}
+
+.buttons .edit{
+    padding: 6px 17px;
+    border-radius: 10px;
+    border:1px solid lightblue;
+    background-color: lightblue;
+    color: blue;
+    font-weight: bolder;
+}
+
+.buttons .delete{
+    border-radius: 10px;
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+    color: red;
+    font-weight: bolder;
+}
